@@ -1,0 +1,8 @@
+#include <sdtio.h>
+int main(void)
+{
+    /*this is my fist C Program*/
+    // You can check it
+    printf("Hello, world!\n");
+    return 0;
+}

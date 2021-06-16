@@ -1,0 +1,13 @@
+# include <stdio.h>
+int main(void) // This is the correct notation to explain what you're doing
+{
+    int i=1;// Or you can use this /*...content*/ the content you want write is between the asterisks
+    int sum=0;/*You need to notice semicolon(;) in every statement
+    while (i<=100)
+    {
+        sum=sum+i;
+        i=i+1;
+    }
+    printf("Sum: %d\n",sum);// what is %d
+    return 0;
+}

@@ -1,0 +1,13 @@
+# include <stdio.h>
+int main(void) # actually, there's no need to add void
+{
+    int i=1; # what is int
+    int sum=0;
+    while (i<=100)
+    {
+        sum=sum+i; # notice the ";" in every statement
+        i=i+1;
+    }
+    printf("Sum: %d\n",sum);
+    return 0;
+}

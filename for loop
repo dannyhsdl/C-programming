@@ -1,0 +1,12 @@
+# include <stdio.h>
+int main(void)
+{
+    int i=1; /* never forget the semicolon(;) in each statement*/
+    int sum=0;
+    for(;i<=100;i=i+1)
+    {
+        sum=sum+i;
+    }
+    printf("Sum: %d\n",sum);
+    return 0;
+}
